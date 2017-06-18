@@ -204,14 +204,13 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    max-width: 440px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .img-portfolio {
     margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
 }
 
 /* Call to Action */
@@ -240,4 +239,5 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background-color: #D3D3D3;
 }
